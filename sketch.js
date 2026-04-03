@@ -3,7 +3,7 @@ let angleX = 0; // Separate angles for better control
 let angleY = 0;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
 
   // Initialize cube vertices
   points[0] = createVector(-0.5, -0.5, -0.5); 
